@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.li-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #64748b;
+}
+
+.arrow-image {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .li-container {
+    width: 400px;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .arrow-image {
+    width: 10px;
+    height: 10px;
+  }
+}

@@ -1,0 +1,85 @@
+/* Write your CSS here */
+
+.google-suggestions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.google-image {
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.input-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.input-search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.search-image {
+  height: 25px;
+  width: 25px;
+  margin: 0 10px 0 10px;
+}
+
+.input-element {
+  width: 500px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 10px 0 10px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 20px 0 0;
+  padding: 0 0 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .google-image {
+    height: 80px;
+  }
+
+  .input-list-container {
+    border-radius: 15px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  }
+
+  .search-image {
+    height: 15px;
+    width: 15px;
+    margin: 0 8px 0 8px;
+  }
+
+  .input-element {
+    width: 400px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 8px 0 8px;
+  }
+}
